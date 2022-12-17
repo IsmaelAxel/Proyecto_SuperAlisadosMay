@@ -9,9 +9,7 @@ body{
     overflow-x: hidden;
 }
 
-video{
-  width: 100%;
-}
+
 
 .headerVideo{
     height: 100vh;
@@ -38,8 +36,8 @@ video{
 }
 
 .video video{
-    min-width: 100%;
-    min-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .videoColor{
@@ -111,13 +109,6 @@ video{
   }
   .boton2:hover::before{
     transform: scaleX(1);
-  }
-
-  @media screen and (min-width : 0px) and (max-width : 1400px){
-    video{
-        height: 100%;
-        width: auto;
-    }
   }
 
 
